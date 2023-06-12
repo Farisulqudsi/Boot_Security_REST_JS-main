@@ -12,7 +12,7 @@ import java.util.List;
 @Repository
 public class RoleDaoImp implements RoleDao {
 
-    @PersistenceContext
+    @Autowired
     private EntityManager em;
 
     @Override
